@@ -5,33 +5,19 @@ import ProjectCard from '../components/ProjectCard'
 
 export default function Home() {
   return (
-    <Container>
-      <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
-        <div className="flex flex-col-reverse sm:flex-row items-start">
-          <div className="flex flex-col pr-8">
-            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-              Tyler Woolcott
-            </h1>
-            <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Front-end Developer
-            </h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-16">
-              I design and build things for the web. Creating responsive websites and Web3 dApps.
-            </p>
-          </div>
-          <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
-          <Image 
-            alt="Tyler Woolcott"
-            height={176}
-            width={176}
-            src="/avatar.jpg"
-            className="rounded-full filter grayscale"
-          />
-          </div>
-        </div>
-        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
-          Featured Projects
-        </h3>
+    <Container
+    title="Projects - Tyler Woolcott"
+    description="My featured projects, built with tech stacks including JavaScript, Typescript, React, Next.js, TailwindCSS, Solidity, Hardhat, Ethers, Web3Modal."
+    >
+    <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
+        Featured Projects
+        </h1>
+            <div className="mb-14">
+                <p className="text-gray-600 dark:text-gray-400">
+                    This is a selectiom of my featured projects, built with tech stacks including JavaScript, TypeScript, React, Next.js, TailwindCSS, Solidity, Hardhat, Ethers, and Web3Modal.
+                </p>
+            </div>
         <div className="flex gap-10 flex-col">
           <ProjectCard 
             img={
@@ -65,7 +51,7 @@ export default function Home() {
               </Image>
               }
             title="Student Search"
-            subtitle="This project was completed as a code challenge in the interview process for a job. It's built with React, it connects to the Hatchways API to search and tag students and the styling is done with TailwindCSS."
+            subtitle="This project was completed as a code challenge in the interview process for a job. It's built with React, it connects to the Hatchways API to search and tag students and the styling is done with Tailwind CSS."
             gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
             target="_blank"
             rel="noreferrer"
@@ -91,7 +77,7 @@ export default function Home() {
               href="#"
           />
         </div>
-      </div>
+    </div>
     </Container>
   )
 }
