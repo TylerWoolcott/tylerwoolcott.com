@@ -8,7 +8,7 @@ import cn from 'classnames';
 import MobileMenu from './MobileMenu';
 import Footer from './Footer';
 
-function NavItem({ href, text }) {
+function NavItem({ href, text }: {href:any, text:any}) {
   const router = useRouter()
   const isActive = router.asPath === href
 
