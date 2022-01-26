@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 import NowPlaying from '../components/NowPlaying'
 
-const ExternalLink = ({ href, children }) => (
+const ExternalLink = ({ href, children }: {href:any, children:any}) => (
     <a
         className="text-gray-500 hover:text-gray-600 transition"
         target="_blank"
