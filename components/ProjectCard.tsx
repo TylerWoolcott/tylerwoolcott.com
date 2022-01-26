@@ -1,6 +1,6 @@
 import cn from 'classnames';
 
-export default function ProjectCard({ title, subtitle, gradient, href, img, target, rel }) {
+export default function ProjectCard({ title, subtitle, gradient, href, img, target, rel }: {title:any, subtitle:any, gradient:any, href:any, img:any, target:any, rel:any}) {
     return (
             <a href={href} target={target} rel={rel}
                 className={cn(
