@@ -55,7 +55,7 @@ export default function Home() {
             gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
             target="_blank"
             rel="noreferrer"
-            href="https://hw-tylerwoolcott.vercel.app/"
+            href="https://hatchways-frontend-fo969rni1-tylerwoolcott.vercel.app/"
           />
           <ProjectCard 
            img={
