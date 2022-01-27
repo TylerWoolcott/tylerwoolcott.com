@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
             <div className="mb-14">
                 <p className="text-gray-600 dark:text-gray-400">
-                    This is a selectiom of my featured projects, built with tech stacks including JavaScript, TypeScript, React, Next.js, TailwindCSS, Solidity, Hardhat, Ethers, and Web3Modal.
+                    This is a selection of my featured projects, built with tech stacks including JavaScript, TypeScript, React, Next.js, TailwindCSS, Solidity, Hardhat, Ethers, and Web3Modal.
                 </p>
             </div>
         <div className="flex gap-10 flex-col">
