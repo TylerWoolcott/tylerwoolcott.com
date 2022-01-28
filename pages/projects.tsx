@@ -74,7 +74,7 @@ export default function Home() {
               gradient="from-[#D8B4FE] to-[#818CF8]"
               target="_blank"
               rel="noreferrer"
-              href="#"
+              href="https://netflix-app-eight.vercel.app/"
           />
         </div>
     </div>
