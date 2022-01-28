@@ -36,7 +36,7 @@ export default function Home() {
             gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             target="_blank"
             rel="noreferrer"
-            href="#"
+            href="https://studiovisit-io-e3by6varq-tylerwoolcott.vercel.app/"
           />
           <ProjectCard 
           img={
