@@ -50,7 +50,7 @@ export default function Home() {
             gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             target="_blank"
             rel="noreferrer"
-            href="#"
+            href="https://studiovisit-io-e3by6varq-tylerwoolcott.vercel.app/"
           />
           <ProjectCard 
           img={
@@ -88,7 +88,7 @@ export default function Home() {
               gradient="from-[#D8B4FE] to-[#818CF8]"
               target="_blank"
               rel="noreferrer"
-              href="#"
+              href="https://netflix-app-eight.vercel.app/"
           />
         </div>
       </div>
