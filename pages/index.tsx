@@ -33,6 +33,25 @@ export default function Home() {
           Featured Projects
         </h3>
         <div className="flex gap-10 flex-col">
+        <ProjectCard 
+            img={
+            <Image 
+              src="/static/images/projects/tylerwoolcott-website.jpg" 
+              alt="Personal Website"
+              layout="responsive"
+              height={130}
+              width={200}
+              className="rounded-xl"
+              >
+              </Image>
+              }
+            title="Personal Website"
+            subtitle="This is my personal website, which contains a portfolio, dashboard and resume. I built it with many fresh React and Next.js features such as API routes powering connection to my Spotify playlists and TailwindCSS."
+            gradient="from-[#3A1C71] via-[#D76D77] to-[#FFAF7B]"
+            target="_blank"
+            rel="noreferrer"
+            href="https://tylerwoolcott.com/"
+          />
           <ProjectCard 
             img={
             <Image 
