@@ -13,7 +13,7 @@ export default function ProjectCard({ title, subtitle, gradient, href, img, targ
                     <div className="mb-4">
                         {img}
                     </div>
-                    <h4 className="text-lg md:text-lg font-medium mb-6 sm:mb-6 w-full text-gray-900 dark:text-gray-100 tracking-tight">
+                    <h4 className="text-lg md:text-lg font-medium mb-6 sm:mb-4 w-full text-gray-900 dark:text-gray-100 tracking-tight">
                         {title}
                     </h4>
                     <p className="text-base md:text-base font-regular mb-6 sm:mb-2 w-full text-gray-600 dark:text-gray-400 tracking-tight">
