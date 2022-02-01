@@ -9,6 +9,6 @@
 - [x] About page
 - [x] Dark mode
 - [x] Spotify currently playing API & component
-- [] Convert project content into MDX
-- [] Add authentication to enable public messages in dashboard
+- [ ] Convert project content into MDX
+- [ ] Add authentication to enable public messages in dashboard
 
