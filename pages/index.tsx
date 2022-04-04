@@ -52,6 +52,25 @@ export default function Home() {
             rel="noreferrer"
             href="https://tylerwoolcott.com/"
           />
+            <ProjectCard 
+              img={
+              <Image 
+                src="/static/images/projects/moot.jpg" 
+                alt="Moot app"
+                layout="responsive"
+                height={130}
+                width={200}
+                className="rounded-xl"
+                >
+                </Image>
+                }
+              title="Moot app"
+              subtitle="I built this website for the CEO of Moot. It uses Next.js, React and TailwindCSS, as well as a typewriter effect written in JavaScript. The video component is deployed using Cloudinary."
+              gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.trymoot.com/"
+          />
           <ProjectCard 
             img={
             <Image 
